@@ -1,5 +1,3 @@
 import React from "react"
 
-export const Home = () => <div>Hello world!</div>
-
-export default Home
+export default () => <div>Hello world!</div>
