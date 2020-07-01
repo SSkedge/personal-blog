@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "personal-blog",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Portfolio Website SSkedge",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -23,9 +23,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/SSkedge/personal-blog"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/SSkedge/personal-blog/issues"
   }
 }
