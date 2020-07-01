@@ -36,6 +36,16 @@ module.exports = {
           }
         ]
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `roboto\:300,400,400i,700`,
+          `roboto mono\:400,400i,700,700i`,
+        ],
+        display: 'swap'
+      }
     }
   ],
 }
