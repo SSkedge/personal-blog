@@ -7,6 +7,9 @@ export default {
         mobile: "only screen and (max-width: 50rem)",
         tablet: "only screen and (max-width: 65rem)",
     },
+    colours: {
+        light1: "hsla(77,13%,94%,1)"
+    },
     spacings: {
         xxSmall: ".25rem",
         xSmall: ".5rem",
