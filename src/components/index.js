@@ -7,3 +7,4 @@ export * from "./GradientBar";
 export * from "./Content";
 export * from "./Card";
 export * from "./Button";
+export * from "./Pagination";
