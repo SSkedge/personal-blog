@@ -4,7 +4,7 @@ import Theme from "./src/themes/theme";
 
 const GlobalStyles = createGlobalStyle`
     * {
-        box-sizing: border;
+        box-sizing: border-box;
         margin: 0;
         padding: 0;
     }
