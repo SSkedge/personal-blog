@@ -1,6 +1,6 @@
 import React from "react"
-import { Container } from "../components/Container"
+import { Container } from "../components"
 
-export const IndexPage = () => <Container><h1>Hello world!</h1></Container>
+export const IndexPage = () => <Container></Container>
 
 export default IndexPage;
