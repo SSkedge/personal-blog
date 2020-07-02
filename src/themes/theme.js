@@ -8,7 +8,12 @@ export default {
         tablet: "only screen and (max-width: 65rem)",
     },
     colours: {
-        light1: "hsla(77,13%,94%,1)"
+        light1: "hsla(77,13%,94%,1)",
+        white: "#FFFFFF",
+        blue2: "#0067E5",
+        green3: "#71DA96",
+        purple1: "#5600C0",
+        blue4: '#CCE3FF',
     },
     spacings: {
         xxSmall: ".25rem",
