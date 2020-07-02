@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import {P} from "../styles/Typography"
 
 export const FooterWrapper = styled.footer`
     grid-column: 2 / span 12;
@@ -17,7 +18,7 @@ export const FooterWrapper = styled.footer`
 export const Footer = () => {
     return (
         <FooterWrapper>
-            <p>Copyright © 2020 All Rights Reserved</p>
+            <P size="xSmall" colour="dark3">Copyright © 2020 All Rights Reserved</P>
         </FooterWrapper>
     )
 }

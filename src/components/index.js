@@ -4,3 +4,6 @@ export * from "./Container";
 export * from "./Image";
 export * from "./BackgroundGradient";
 export * from "./GradientBar";
+export * from "./Content";
+export * from "./Card";
+export * from "./Button";

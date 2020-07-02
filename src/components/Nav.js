@@ -7,6 +7,7 @@ export const NavWrapper = styled.nav`
     grid-row: 1 / 2;
     display: flex;
     align-items: center;
+    z-index: 1;
 
     @media ${props => props.theme.breakpoints.tablet} {
         grid-column: 2 / span 6;
