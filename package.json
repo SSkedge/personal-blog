@@ -23,6 +23,7 @@
     "gatsby-plugin-mdx": "^1.2.19",
     "gatsby-plugin-sharp": "^2.6.14",
     "gatsby-plugin-styled-components": "^3.3.8",
+    "gatsby-remark-copy-linked-files": "^2.3.10",
     "gatsby-remark-images": "^3.3.14",
     "gatsby-source-filesystem": "^2.3.14",
     "gatsby-transformer-sharp": "^2.5.7",

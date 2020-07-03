@@ -8,3 +8,5 @@ export * from "./Content";
 export * from "./Card";
 export * from "./Button";
 export * from "./Pagination";
+export * from "./Post";
+export * from "./Video";

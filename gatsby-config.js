@@ -22,14 +22,12 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-sharp`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        useMozJpeg: false,
-        stripMetadata: true,
-        defaultQuality: 100,
-      },
+        name: `videos`,
+        path: `${__dirname}/blog/videos`,
+      }
     },
-    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
@@ -40,10 +38,20 @@ module.exports = {
             options: {
               maxWidth: 1200,
             }
-          }
+          },
         ]
       }
     },
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        useMozJpeg: false,
+        stripMetadata: true,
+        defaultQuality: 100,
+        maxWidth: 1200,
+      },
+    },
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
