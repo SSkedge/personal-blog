@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { graphql } from "gatsby";
 
 export const VideoWrapper = styled.div`
     grid-column: 5 / span 6;
@@ -19,11 +18,11 @@ export const VideoWrapper = styled.div`
 `
 
 export const Video = ({ src }) => {
-    const video = require(`../videos/${src}`);
+    // const video = require(`../../${src}`);
     return (
         <VideoWrapper>
             <video controls>
-                <source src={video} type="video/mp4" />
+                <source src={`../../${src}`} type="video/mp4" />
             </video>
         </VideoWrapper >
     )
