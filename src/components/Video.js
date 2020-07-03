@@ -18,7 +18,7 @@ export const VideoWrapper = styled.div`
 `
 
 export const Video = ({ videoSRC }) => {
-    const video = require(`../../blog/videos/${videoSRC}`);
+    const video = require(`/${videoSRC}`);
     return (
         <VideoWrapper>
             <video controls>
