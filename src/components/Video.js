@@ -18,11 +18,10 @@ export const VideoWrapper = styled.div`
 `
 
 export const Video = ({ src }) => {
-    // const video = require(`../../${src}`);
     return (
         <VideoWrapper>
             <video controls>
-                <source src={`../../${src}`} type="video/mp4" />
+                <source src={`../../videos/${src}`} type="video/mp4" />
             </video>
         </VideoWrapper >
     )
