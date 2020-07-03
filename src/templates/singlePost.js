@@ -19,7 +19,7 @@ const singlePost = ({ data }) => {
                 <MDXRenderer>
                     {data.mdx.body}
                 </MDXRenderer>
-                {data.mdx.frontmatter.video && <Video videoSRC={data.mdx.frontmatter.video} />}
+                {data.mdx.frontmatter.video && <Video src={data.mdx.frontmatter.video} />}
             </Post>
         </Container>
     )
