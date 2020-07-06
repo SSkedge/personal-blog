@@ -20,6 +20,7 @@ export default {
         green3: "#71DA96",
         purple1: "#5600C0",
         blue4: '#CCE3FF',
+        blue5: '#1488ec',
     },
     spacings: {
         xxSmall: ".25rem",

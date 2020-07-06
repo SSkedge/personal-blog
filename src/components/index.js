@@ -11,3 +11,5 @@ export * from "./Pagination";
 export * from "./Post";
 export * from "./Video";
 export * from "./Code";
+export * from "./WelcomeContent";
+export * from "./Table";

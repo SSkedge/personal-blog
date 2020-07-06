@@ -1,13 +1,10 @@
-import React from "react"
-import { Container } from "../components";
-import { Link } from "gatsby";
+import React from "react";
+import { Container, WelcomeContent} from "../components";
 
 export const IndexPage = () => {
   return (
     <Container>
-      <Link to="/blog">
-        <h1>blog</h1>
-      </Link>
+      <WelcomeContent />
     </Container>
   )
 }
