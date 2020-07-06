@@ -10,3 +10,4 @@ export * from "./Button";
 export * from "./Pagination";
 export * from "./Post";
 export * from "./Video";
+export * from "./Code";
